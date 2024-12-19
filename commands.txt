@@ -4,4 +4,7 @@ git rm --cached
 git commit  -m 
 got log
 git restore
-
+git log --oneline
+git log --oneline --pretty
+git config --global user.name ""
+git config --global user.eamil ""
